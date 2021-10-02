@@ -1,0 +1,21 @@
+header{
+    background: #6495ED;
+    margin:0;
+    padding: 30px;
+    text-align:right;
+    grid-area: header;
+}
+header a:link{
+    text-decoration: none;
+    color: #FAEBD7;
+}  
+header a:visited{
+    color: #FAEBD7;
+    &a:active{
+    color: #DEB887;
+    &a:hover{
+    color: white;
+    text-decoration: underline;
+}
+}
+}

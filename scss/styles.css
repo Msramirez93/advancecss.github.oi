@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: #6495ED;
+  margin: 0;
+  padding: 30px;
+  text-align: right;
+  grid-area: header;
+}
+
+header a:link {
+  text-decoration: none;
+  color: #FAEBD7;
+}
+header a:visited {
+  color: #FAEBD7;
+}
+header a:active {
+  color: #DEB887;
+}
+header a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", "Serif";
+}
+
+hr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+a:link {
+  color: #6495ED;
+  text-decoration: none;
+}
+a:visited {
+  color: #6495ED;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.post-content h2 a:link {
+  color: black;
+}
+.post-content h2 a:visited {
+  color: black;
+}
+.post-content h2 a:active {
+  color: #DEB887;
+}
+.post-content h2 a:hover {
+  color: #6495ED;
+}
+
+@media only screen and (max-width: 759px) {
+  main {
+    margin: 0;
+    padding: 10px;
+    grid-area: main;
+  }
+}
+main {
+  margin: 0;
+  padding: 10px;
+  grid-area: main;
+}
+
+.post-date {
+  margin: 10px;
+  color: #999;
+}
+
+article {
+  margin: 10px;
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  box-shadow: #a8a2a2 3px 3px 3px;
+}
+
+img {
+  text-align: center;
+  width: 90%;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 700px) {
+  body div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 20px;
+    grid-template-areas: "header main main main" "header main main main" "header main main main" "header main main main";
+  }
+
+  header ul li {
+    font-size: 15px;
+  }
+}
+/* Global styles */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkred;
+}
+
+#contactform > {
+  background-color: burlywood;
+}
+#contactform > a:hover {
+  background-color: antiquewhite;
+}
+#contactform > input, #contactform > textarea {
+  background-color: antiquewhite;
+  flex: 2;
+}
+@media (min-width: 31em) {
+  #contactform > {
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 60em) {
+  #contactform > {
+    width: 70%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#contactform fieldset > div {
+  display: flex;
+  flex-flow: column nowrap;
+}
+#contactform fieldset > div label {
+  flex: 1;
+  text-align: left;
+}
+@media (min-width: 31em) {
+  #contactform fieldset > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  #contactform fieldset > div label {
+    text-align: right;
+    margin-right: 1em;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkred;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+#contactform {
+  background-color: burlywood;
+}
+
+#contactform input, #contactform textarea {
+  background-color: antiquewhite;
+}
+
+#contactform {
+  background-color: burlywood;
+}
+#contactforminput, #contactform textarea {
+  background-color: antiquewhite;
+  flex: 2;
+  align-items: center;
+}
+
+#contactform {
+  background-color: burlywood;
+}
+#contactform input, #contactform textarea {
+  background-color: antiquewhite;
+  flex: 2;
+}
+@media (min-width: 20em) {
+  #contactform {
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}*//*# sourceMappingURL=styles.css.map */

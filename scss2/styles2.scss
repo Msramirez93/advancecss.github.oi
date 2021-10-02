@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import "header";
+@import "fonts";
+@import "main";
+@import "colors";
+
+@mixin body{
+    margin:0;
+    padding: 0;
+    font-family: $font-family;
+}
 
 
 body{
-    margin:0;
-    padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    @include body;
 }
-
 h1{
-    font-family: 'Lora', serif;
-    font-size: 2rem;
+    font-family:$font2 ;
+    font-size: $size1;
 }
 hr{
     margin-left: 5%;
@@ -19,45 +25,39 @@ li{
     list-style: none;
     margin:10px;
 }
-
 a:link{
-    color:#6495ED;
+    color:$color1;
     text-decoration: none;
-}
-a:visited{
-    color:#6495ED;
+&a:visited{
+    color:$color1;
     text-decoration: none;
-}
-a:hover{
+&a:hover{
     text-decoration: underline;
 
 }
+}
+}
 .post-content h2 a:link{
-    color:black;
+    color:$color2;
+&.post-content h2 a:visited{
+    color:$color2;
+&.post-content h2 a:active{
+    color:$color3;
+&.post-content h2 a:hover{
+    color:$color1;
 }
-.post-content h2 a:visited{
-    color:black;
 }
-.post-content h2 a:active{
-    color:#DEB887;
 }
-.post-content h2 a:hover{
-    color:#6495ED;
 }
-main{
-    background-color: #FAEBD7;
-    margin: 0;
-    padding: 10px;
-    grid-area: main;
-}
+
 .post-date{
     margin:10px;
-    color: #999;
+    color: $color4;
 }
 article{
     margin:10px;
     margin-top:20px;
-    background: white;
+    background: $color5;
     padding: 15px;
     box-shadow: rgb(168, 162, 162) 3px 3px 3px;
 } 
@@ -67,6 +67,7 @@ img{
     margin-top:30px;
     object-fit: cover;
 }
+//media for small
 @media screen and (min-width: 700px){
     body div{
         display: grid;

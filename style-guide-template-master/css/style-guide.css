@@ -208,13 +208,13 @@ xButtons
   background: #e87a75;
 }
 .btn.btn-outline {
-  color: #5f8ee4;
+  color: #555b6e;
   background: transparent;
-  box-shadow: inset 0 0 0 1px #5f8ee4;
+  box-shadow: inset 0 0 0 1px #89b0ae;
 }
 .no-touch .btn.btn-outline:hover {
   color: #ffffff;
-  background: #5f8ee4;
+  background: #89b0ae;
 }
 @media only screen and (min-width: 768px) {
   .btn {
@@ -388,7 +388,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Merriweather", serif;
+  font-family: "Open Sans pro", serif;
 }
 
 a {
@@ -400,7 +400,7 @@ img {
 }
 
 input, textarea, select {
-  font-family: "Merriweather", serif;
+  font-family: "Open Sans pro", serif;
   font-size: 1.6rem;
 }
 
@@ -825,34 +825,34 @@ section:nth-of-type(6) h2::before {
   padding: .6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4;
+  background: #555b6e;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #759de8;
+  background: #62687F;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #497fe0;
+  background: #6A728A;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #19191a;
+  background: #89B0AE;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-  background: #262627;
+  background: #9DBEBC;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-  background: #0d0d0d;
+  background: #A9C6C4;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
-  background: #e4655f;
+  background: #BEE3D8;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
-  background: #e87a75;
+  background: #D4EDE7;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
-  background: #e05049;
+  background: #E2F3EF;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #e6e6e6;
+  background: #FAF9F9;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
   background: #f3f3f3;
@@ -861,13 +861,13 @@ section:nth-of-type(6) h2::before {
   background: #d9d9d9;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
-  background: #ffffff;
+  background: #FFD6BA;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
-  background: white;
+  background: #FFE7D6;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-  background: #f2f2f2;
+  background: #FFF3EB;
 }
 @media only screen and (min-width: 768px) {
   .cd-colors li {
@@ -975,4 +975,12 @@ section:nth-of-type(6) h2::before {
 }
 .no-csstransitions .cd-select::after {
   display: none;
+}
+.per1 , .per2, .per3{
+  margin: 10px;
+  color:#19191a;
+}
+.wireframeTitle{
+  margin: 10px;
+
 }

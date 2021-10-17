@@ -1,0 +1,60 @@
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+        margin: 1em 0 1.4em;
+        }
+p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+/*btn*/
+.btn {
+    font-size: 1.6rem;
+}
+/*section*/
+section {
+    margin: 3em 0 5em;
+}
+/*branding*/
+.cd-branding .cd-box {
+    width: 49%;
+    float: left;
+    margin: 0 2% 2em 0;
+}
+.cd-branding .cd-box:nth-of-type(2n) {
+    margin-right: 0;
+}
+.cd-branding ul:last-of-type {
+    clear: left;
+}
+.cd-branding ul:last-of-type li {
+    margin-right: 3em;
+}
+/*colors*/
+.cd-colors li {
+    width: 19%;
+    float: left;
+    margin: 0 1.25% 1em 0;
+}
+.cd-colors li:nth-of-type(2n) {
+    margin-right: 1.25%;
+}
+.cd-colors li:nth-of-type(5n) {
+    margin-right: 0;
+}
+.cd-typography .cd-box .cd-box,
+.cd-buttons .cd-box .cd-box,
+.cd-icons .cd-box .cd-box,
+.cd-form .cd-box .cd-box {
+    padding: 2em;
+}
+
+
+
+
+
+
+}

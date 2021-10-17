@@ -1,0 +1,23 @@
+.cd-main-nav {
+    /* main navigation background color - full screen on small devices */
+    background: #19191a;
+}
+.cd-main-nav li a {
+    color: #ffffff;
+    border-color: #262627;
+}
+
+/*page*/
+main > h1 {
+    color: #19191a;
+}
+main {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+main > h1 {
+    text-align: center;
+    margin: 3em 0;
+}

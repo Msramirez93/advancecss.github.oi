@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1600px) {
+    main > h1 {
+    /* title goes into the header on big devices */
+    color: #ffffff;
+    }
+    /*nav*/
+    .cd-main-nav {
+        display: none;
+    }
+    .cd-download {
+        right: 5%;
+    }
+    /*main*/
+    main {
+        max-width: none;
+        padding: 120px 0 50px;
+    }
+    main > h1 {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        height: 80px;
+        line-height: 80px;
+        width: 400px;
+        margin: 0 0 0 -200px;
+        font-size: 2.6rem;
+        z-index: 20;
+    }
+/*section*/
+section {
+    width: 48%;
+    float: left;
+    margin: 0 4% 4em 0;
+}
+section:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+
+
+
+
+}

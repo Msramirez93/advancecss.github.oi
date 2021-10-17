@@ -1,0 +1,78 @@
+/* xColor section - basic style */
+.cd-colors li {
+    text-align: center;
+    width: 48%;
+    float: left;
+    margin: 0 4% 1em 0;
+}
+.cd-colors li:nth-of-type(2n) {
+    margin-right: 0;
+}
+.cd-colors .cd-color-swatch {
+    position: relative;
+    width: 100%;
+    padding: 50% 0;
+}
+.cd-colors .cd-color-swatch::before, .cd-colors .cd-color-swatch::after {
+    /* lighter and darker color shades of the same swatch */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 20%;
+}
+.cd-colors .cd-color-swatch::before {
+    left: 0;
+}
+.cd-colors .cd-color-swatch::after {
+    right: 0;
+}
+.cd-colors b {
+    display: block;
+    padding: .6em 0;
+}
+.cd-colors li:nth-of-type(1) .cd-color-swatch {
+    background: #555b6e;
+}
+.cd-colors li:nth-of-type(1) .cd-color-swatch::before {
+    background: #62687F;
+}
+.cd-colors li:nth-of-type(1) .cd-color-swatch::after {
+    background: #6A728A;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch {
+    background: #89B0AE;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch::before {
+    background: #9DBEBC;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch::after {
+    background: #A9C6C4;
+}
+.cd-colors li:nth-of-type(3) .cd-color-swatch {
+    background: #BEE3D8;
+}
+.cd-colors li:nth-of-type(3) .cd-color-swatch::before {
+    background: #D4EDE7;
+}
+.cd-colors li:nth-of-type(3) .cd-color-swatch::after {
+    background: #E2F3EF;
+}
+.cd-colors li:nth-of-type(4) .cd-color-swatch {
+    background: #FAF9F9;
+}
+.cd-colors li:nth-of-type(4) .cd-color-swatch::before {
+    background: #f3f3f3;
+}
+.cd-colors li:nth-of-type(4) .cd-color-swatch::after {
+    background: #d9d9d9;
+}
+.cd-colors li:nth-of-type(5) .cd-color-swatch {
+    background: #FFD6BA;
+}
+.cd-colors li:nth-of-type(5) .cd-color-swatch::before {
+    background: #FFE7D6;
+}
+.cd-colors li:nth-of-type(5) .cd-color-swatch::after {
+    background: #FFF3EB;
+}

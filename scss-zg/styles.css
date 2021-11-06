@@ -42,6 +42,44 @@
     font-size: 20px;
     line-height: 5px;
   }
+
+  .design-archives {
+    position: initial;
+    top: 100px;
+    list-style-type: none;
+    font-size: 13px;
+    border: 1px solid #ff00000a;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: start;
+  }
+  .design-archivesul, .design-archives li {
+    text-decoration: none;
+  }
+
+  .preamble {
+    margin: 10px;
+  }
+  .preamble [role] {
+    margin: auto;
+  }
+
+  .main {
+    margin: 10px;
+  }
+  .main [role] {
+    margin: auto;
+  }
+  .main [role] .explanation {
+    margin: 10px;
+  }
+  .main [role] .explanation [role] {
+    margin: auto;
+  }
+  .main [role] .explanation [role] h3 {
+    text-align: right;
+  }
 }
 body {
   background-color: #89b0ae;
@@ -61,4 +99,14 @@ body {
   background-color: #ffffff52;
   padding: 10px;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #3c656ed1;
+}
+aa:hover {
+  -webkit-text-decoration: #89b0ae;
+          text-decoration: #89b0ae;
+  color: #3c656ed1;
 }/*# sourceMappingURL=styles.css.map */

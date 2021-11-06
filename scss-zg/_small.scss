@@ -25,4 +25,39 @@
         }
         }
     }
+    .design-archives {
+        position: initial;
+        top: 100px;
+        list-style-type: none;
+        font-size: 13px;
+        border: 1px solid #ff00000a;
+        padding: 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: start;
+        &ul,li{
+            text-decoration: none;
+        }
+    }
+    .preamble{
+        margin: 10px;
+        & [role]{
+            margin: auto;
+        }
+    }
+    .main{
+        margin: 10px;
+        & [role]{
+            margin: auto;
+            & .explanation{
+                margin: 10px;
+                & [role]{
+                    margin: auto;
+                    & h3{
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
 }

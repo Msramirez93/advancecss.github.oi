@@ -27,6 +27,7 @@
     }
     .design-archives {
         position: initial;
+        margin: 10px;
         top: 100px;
         list-style-type: none;
         font-size: 13px;
@@ -45,6 +46,9 @@
             margin: auto;
         }
     }
+    .text-middle{
+        width: 400px;
+    }
     .main{
         margin: 10px;
         & [role]{
@@ -60,4 +64,11 @@
             }
         }
     }
+footer{
+    border: 1px solid black;
+    
+}
+
+
+
 }

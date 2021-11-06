@@ -1,13 +1,16 @@
-@import 'large';
+@use 'small' as *;
+@use 'media' as*;
+@use 'large' as*;
+/*@import 'small';
 @import 'media';
-@import 'small';
-
-
+@import 'large';*/
 
 
 
 
 body{
+    margin:0;
+    padding: 0;
     background-color: #89b0ae;
 }
 .summary{
@@ -19,9 +22,9 @@ body{
 }
 .text-middle{
     font-size: .5rem;
-    margin: 30px;
+    margin: 10px;
     background-color: #ffffff52;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 

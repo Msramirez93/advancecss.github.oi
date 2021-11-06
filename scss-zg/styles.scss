@@ -1,6 +1,8 @@
-@import 'small';
-@import 'media';
 @import 'large';
+@import 'media';
+@import 'small';
+
+
 
 
 
@@ -8,24 +10,17 @@
 body{
     background-color: #89b0ae;
 }
-.img-nature{
-    height: 300px;
-    width: 400px;
-    background-image: url(../imageszn/image1.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color:beige;
-
+.summary{
+    position: absolute;
+    top: 200px;
+    margin-left: 30px;
+    font-size: .8rem;
+    width: 250px;
 }
-.text1{
-    margin: 10px;
-    text-align: end;
-    font-size: 30px;
-}
-.preamble{
-    font-size: 1.5rem;
+.text-middle{
+    font-size: .5rem;
     margin: 30px;
     background-color: #ffffff52;
     padding: 10px;
+    text-align: center;
 }

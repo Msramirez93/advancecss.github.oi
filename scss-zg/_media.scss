@@ -1,9 +1,14 @@
 @media only screen and (max-width: 759px) {
     .img-nature{
-    
+        height: 300px;
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color:beige;
+        
         & > img {
-            width: 95%;
-            height: 500px;
+            
             filter: opacity( 0.3 );
         }
     

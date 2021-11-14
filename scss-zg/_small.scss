@@ -1,8 +1,16 @@
 @media only screen and (max-width: 564px) {
     .img-nature{
-        &>img{
-            max-width:95%;
+        .img-nature{
             height: 300px;
+            width: 400px;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color:beige;
+        
+        }
+        &>img{
+            
             filter: opacity(0.5);
         }
         & [role]{
@@ -66,7 +74,7 @@
     }
 footer{
     border: 1px solid black;
-    
+
 }
 
 
